@@ -15,9 +15,7 @@ $Darkblue: hsl(223, 47%, 23%);
   box-sizing: border-box;
   font-family: $redhat;
 }
-body {
-}
-section {
+main {
   min-width: 100vw;
   min-height: 100vh;
   background-color: $Paleblue-p;
@@ -40,6 +38,7 @@ section {
       padding: 2rem;
       h1 {
         text-align: center;
+        font-size: 1.5em;
         font-weight: bolder;
       }
       .caption {
@@ -59,8 +58,8 @@ section {
           display: flex;
           justify-content: center;
           align-items: center;
-          span {
-            padding-left: 0.5rem;            
+          div {
+            padding-left: 0.5rem;
             p:first-of-type {
               font-weight: 700;
             }

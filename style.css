@@ -7,7 +7,7 @@
   font-family: "Red Hat Display", sans-serif;
 }
 
-section {
+main {
   min-width: 100vw;
   min-height: 100vh;
   background-color: #e0e8ff;
@@ -25,35 +25,36 @@ section {
           align-items: center;
 }
 
-section .main-card {
+main .main-card {
   background-color: white;
   width: 350px;
   border-radius: 10px;
 }
 
-section .main-card .banner_img {
+main .main-card .banner_img {
   height: 100%;
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
 
-section .main-card .content {
+main .main-card .content {
   padding: 2rem;
 }
 
-section .main-card .content h1 {
+main .main-card .content h1 {
   text-align: center;
+  font-size: 1.5em;
   font-weight: bolder;
 }
 
-section .main-card .content .caption {
+main .main-card .content .caption {
   text-align: center;
   font-weight: 700;
   padding: 1rem 0;
   color: #7280a7;
 }
 
-section .main-card .content .sub_plan {
+main .main-card .content .sub_plan {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,7 +69,7 @@ section .main-card .content .sub_plan {
   border-radius: 10px;
 }
 
-section .main-card .content .sub_plan .left {
+main .main-card .content .sub_plan .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,24 +81,24 @@ section .main-card .content .sub_plan .left {
           align-items: center;
 }
 
-section .main-card .content .sub_plan .left span {
+main .main-card .content .sub_plan .left div {
   padding-left: 0.5rem;
 }
 
-section .main-card .content .sub_plan .left span p:first-of-type {
+main .main-card .content .sub_plan .left div p:first-of-type {
   font-weight: 700;
 }
 
-section .main-card .content .sub_plan a {
+main .main-card .content .sub_plan a {
   font-weight: 700;
   color: #3829e0;
 }
 
-section .main-card .content .sub_plan a:hover {
+main .main-card .content .sub_plan a:hover {
   opacity: 0.7;
 }
 
-section .main-card .content button {
+main .main-card .content button {
   cursor: pointer;
   width: 100%;
   margin-top: 1rem;
@@ -109,11 +110,11 @@ section .main-card .content button {
   border-radius: 10px;
 }
 
-section .main-card .content button:hover {
+main .main-card .content button:hover {
   opacity: 0.7;
 }
 
-section .main-card .content .cancel {
+main .main-card .content .cancel {
   text-decoration: none;
   padding: 1rem 0;
   font-size: 0.8rem;
